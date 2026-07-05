@@ -1,22 +1,45 @@
 # Praxis Dr. Dr. Horst Hammel – Website
 
-Website für die Arztpraxis von Dr. Dr. Horst Hammel.
+Website for the medical practice of Dr. Dr. Horst Hammel.
 
-## Aufbau
-- `index.html` – die komplette Seite (Inhalt)
-- `styles.css` – das Design (Farben, Layout)
+> **Note on language:** The **website content is in German**, because the
+> practice's patients are German-speaking. All **collaboration** (this README,
+> issues, pull requests, commit messages, code comments) is in **English** so
+> the whole team can work together.
 
-## Lokal ansehen
-Einfach die Datei `index.html` doppelklicken – sie öffnet sich im Browser.
+## Live site
+https://fredericpae.github.io/Praxis-Dr-Dr-Horst-Hammel/
 
-## Veröffentlichen (GitHub Pages)
-1. Änderungen mit Git hochladen (`push`).
-2. Auf GitHub: **Settings → Pages → Branch: `main` → Save**.
-3. Nach ein paar Minuten ist die Seite unter
-   `https://fredericpae.github.io/Praxis-Dr-Dr-Horst-Hammel/` erreichbar.
+## Project structure
+| File | Purpose |
+|------|---------|
+| `index.html` | The full page content |
+| `styles.css` | The design (colors, layout, responsiveness) |
+| `.github/`   | Collaboration templates (PRs, issues) |
 
-## Noch zu ergänzen
-- [ ] Echte Adresse, Telefonnummer, E-Mail
-- [ ] Richtige Sprechzeiten
-- [ ] Vorstellungstext & Foto von Dr. Dr. Hammel
-- [ ] Impressum & Datenschutzerklärung (gesetzlich vorgeschrieben)
+## View it locally
+Just double-click `index.html` — it opens in your browser. No build step, no
+tools required.
+
+## How we publish (GitHub Pages)
+The site is served automatically by GitHub Pages from the `main` branch.
+Every change that lands on `main` goes live within a minute or two.
+
+## The everyday workflow
+```bash
+# 1. Make your changes to index.html / styles.css
+# 2. Save a checkpoint (commit)
+git add .
+git commit -m "Describe what you changed"
+# 3. Upload it
+git push
+```
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the recommended branch + pull-request
+flow when working as a team.
+
+## To-do (real content still needed)
+- [ ] Real address, phone number, email
+- [ ] Correct office hours
+- [ ] Introduction text & photo of Dr. Dr. Hammel
+- [ ] Legal notice (*Impressum*) & privacy policy — **legally required** for a
+      medical practice in Germany
