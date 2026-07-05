@@ -1,3 +1,37 @@
+/* ===== Self-hosted Inter font =====
+   Served from our own /fonts folder so no data (IP address) is sent to
+   Google's servers. This avoids the well-known German DSGVO/GDPR problem
+   with loading Google Fonts from a CDN. The "latin" subset covers German
+   umlauts (ä ö ü ß) and the en/em dashes used on the site. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/inter-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('fonts/inter-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/inter-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/inter-latin-700-normal.woff2') format('woff2');
+}
+
 /* ===== Base settings & colors ===== */
 :root {
   --blue: #1a5f7a;
@@ -149,6 +183,20 @@ h2 { font-size: clamp(1.6rem, 4vw, 2.3rem); margin-bottom: 2.5rem; }
 .footer-nav a:hover { color: var(--white); }
 .legal-note { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.15); }
 .legal-note p { font-size: 0.85rem; color: rgba(255,255,255,0.7); }
+
+/* ===== Legal pages (Impressum / Datenschutz) ===== */
+.legal { max-width: 760px; margin: 0 auto; }
+.legal h1 { margin-bottom: 1.5rem; }
+.legal h2 { font-size: 1.3rem; margin: 2.5rem 0 0.8rem; }
+.legal p, .legal li { color: var(--text); }
+.legal p { margin-bottom: 1rem; }
+.legal ul { margin: 0 0 1rem 1.2rem; }
+.legal .todo {
+  background: #fff7e6; border: 1px solid #ffe0a3; border-radius: 10px;
+  padding: 0.75rem 1rem; margin: 0.5rem 0 1.5rem; font-size: 0.95rem; color: #7a5a00;
+}
+.legal .back { display: inline-block; margin-bottom: 2rem; color: var(--blue-light); text-decoration: none; }
+.legal .back:hover { text-decoration: underline; }
 
 /* ===== Mobile / Tablet ===== */
 @media (max-width: 900px) {
