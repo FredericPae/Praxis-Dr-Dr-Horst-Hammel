@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Praxis Dr. Dr. Horst Hammel</title>
-  <meta name="description" content="Arztpraxis Dr. Dr. Horst Hammel – kompetente und persönliche medizinische Versorgung." />
+  <title>Praxis Dr. Dr. Horst Hammel · Hausarzt in Walluf im Rheingau</title>
+  <meta name="description" content="Hausarztpraxis Dr. med. Dr. rer. nat. Horst Hammel in Walluf im Rheingau – Facharzt für Allgemeinmedizin mit naturheilkundlichem Schwerpunkt. Herzlich, persönlich, ganzheitlich." />
   <meta name="theme-color" content="#026e7c" />
 
   <!-- Favicons (self-hosted, no external requests) -->
@@ -13,8 +13,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/logo/favicon-16.png" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
-  <!-- Font is self-hosted in styles.css (see @font-face) — no external Google Fonts request. -->
+  <!-- Fonts are self-hosted in styles.css (see @font-face) — no external Google Fonts request. -->
   <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
 </head>
 <body>
 
@@ -28,11 +29,11 @@
       </a>
       <nav class="nav">
         <a href="#leistungen">Leistungen</a>
+        <a href="#praxis">Praxis</a>
         <a href="#sprechzeiten">Sprechzeiten</a>
-        <a href="#team">Team</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
-      <a href="tel:+49000000000" class="btn btn-header">Termin anrufen</a>
+      <a href="tel:+49612372679" class="btn btn-header">Termin: 06123 72679</a>
     </div>
   </header>
 
@@ -40,126 +41,192 @@
   <section class="hero" id="top">
     <div class="container hero-inner">
       <div class="hero-text">
-        <p class="eyebrow">Herzlich willkommen</p>
-        <h1>Praxis Dr. Dr. Horst Hammel</h1>
+        <span class="eyebrow">Hausarztpraxis · Walluf im Rheingau</span>
+        <h1>Herzlich willkommen in Ihrer Hausarztpraxis</h1>
         <p class="lead">
-          Kompetente, moderne und persönliche medizinische Versorgung –
-          für Sie und Ihre Familie. Wir nehmen uns Zeit für Ihre Gesundheit.
+          Persönliche, moderne Medizin mit einem natürlichen Blick auf den ganzen
+          Menschen – bei Dr. med. Dr. rer. nat. Horst Hammel, Facharzt für
+          Allgemeinmedizin. Wir nehmen uns Zeit für Sie und Ihre Familie.
         </p>
         <div class="hero-actions">
-          <a href="#kontakt" class="btn btn-primary">Termin vereinbaren</a>
+          <a href="tel:+49612372679" class="btn btn-primary">📞 Termin vereinbaren</a>
           <a href="#leistungen" class="btn btn-secondary">Unsere Leistungen</a>
         </div>
+        <div class="hero-meta">
+          <span>📍 Schöne Aussicht 1, Walluf</span>
+          <span>✓ Alle Kassen &amp; Privatpatienten</span>
+        </div>
       </div>
-      <div class="hero-card">
-        <h3>Sprechzeiten heute</h3>
-        <ul class="hours-mini">
-          <li><span>Vormittag</span><strong>08:00 – 12:00</strong></li>
-          <li><span>Nachmittag</span><strong>15:00 – 18:00</strong></li>
-        </ul>
-        <p class="hero-card-note">Termine nach Vereinbarung. Bitte rufen Sie uns an.</p>
-        <a href="tel:+49000000000" class="btn btn-primary btn-block">📞 000 / 000 00 00</a>
+
+      <aside class="hero-card">
+        <h3>🌿 Kontakt &amp; Termin</h3>
+        <div class="card-row"><span>Telefon</span><strong>06123 72679</strong></div>
+        <div class="card-row"><span>Adresse</span><strong>Schöne Aussicht 1<br />65396 Walluf</strong></div>
+        <div class="card-row"><span>Termine</span><strong>nach Vereinbarung</strong></div>
+        <a href="tel:+49612372679" class="btn btn-primary btn-block">Jetzt anrufen</a>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== Approach / philosophy ===== -->
+  <section class="approach">
+    <div class="container">
+      <span class="leaf">❧</span>
+      <p class="statement">
+        „Gute Hausarztmedizin heißt für uns: zuhören, Zeit nehmen und Schulmedizin
+        mit natürlichen Verfahren verbinden – damit Sie sich gut aufgehoben fühlen."
+      </p>
+      <div class="approach-values">
+        <div><strong>Persönlich</strong> statt anonym</div>
+        <div><strong>Ganzheitlich</strong> behandelt</div>
+        <div><strong>Wohnortnah</strong> im Rheingau</div>
       </div>
     </div>
   </section>
 
-  <!-- ===== Services ===== -->
+  <!-- ===== Leistungen ===== -->
   <section class="section" id="leistungen">
     <div class="container">
-      <p class="eyebrow center">Was wir bieten</p>
-      <h2 class="center">Unsere Leistungen</h2>
-      <div class="cards cards-2">
-        <article class="card card--list">
-          <div class="card-icon">🩺</div>
+      <div class="section-head center">
+        <span class="eyebrow center">Was wir für Sie tun</span>
+        <h2>Unsere Leistungen</h2>
+        <p>Von der klassischen hausärztlichen Versorgung bis zu sanften,
+           naturheilkundlichen Verfahren – abgestimmt auf Sie.</p>
+      </div>
+
+      <div class="service-group reveal">
+        <div class="service-group-head">
           <h3>Hausärztliche Grundversorgung</h3>
-          <ul class="card-list">
-            <li>Hausärztliche Betreuung &amp; Akutsprechstunde</li>
-            <li>Hausbesuche</li>
-          </ul>
-        </article>
-        <article class="card card--list">
-          <div class="card-icon">🌿</div>
-          <h3>Naturheilkundlicher Schwerpunkt</h3>
-          <ul class="card-list">
-            <li>Naturheilverfahren</li>
-            <li>Manuelle Medizin / Chirotherapie</li>
-            <li>Homöopathie</li>
-          </ul>
-        </article>
+        </div>
+        <div class="service-grid">
+          <article class="service">
+            <div class="service-icon">🩺</div>
+            <h4>Hausärztliche Betreuung</h4>
+            <p>Ihre erste Anlaufstelle bei akuten Beschwerden und für die
+               langfristige Begleitung Ihrer Gesundheit.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon">🏡</div>
+            <h4>Hausbesuche</h4>
+            <p>Wenn der Weg in die Praxis einmal nicht möglich ist, kommen wir zu
+               Ihnen nach Hause.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon">💬</div>
+            <h4>Beratung &amp; Begleitung</h4>
+            <p>Zeit für das persönliche Gespräch – verständlich erklärt und auf
+               Ihre Lebenssituation abgestimmt.</p>
+          </article>
+        </div>
       </div>
 
-      <!-- Placeholder: further services still to be confirmed with Dr. Hammel before they are published. -->
+      <div class="service-group reveal">
+        <div class="service-group-head">
+          <h3>Naturheilkunde &amp; ganzheitliche Medizin</h3>
+          <span class="badge">Schwerpunkt</span>
+        </div>
+        <div class="service-grid">
+          <article class="service">
+            <div class="service-icon">🌿</div>
+            <h4>Naturheilverfahren</h4>
+            <p>Sanfte, natürliche Methoden, die die Selbstheilungskräfte Ihres
+               Körpers gezielt unterstützen.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon">🖐️</div>
+            <h4>Manuelle Medizin / Chirotherapie</h4>
+            <p>Gezielte Handgriffe bei Beschwerden des Bewegungsapparats – etwa bei
+               Rücken- oder Gelenkschmerzen.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon">🌼</div>
+            <h4>Homöopathie</h4>
+            <p>Individuell abgestimmte homöopathische Behandlung als Ergänzung zur
+               klassischen Medizin.</p>
+          </article>
+        </div>
+      </div>
+
       <p class="services-note">
-        Weitere Leistungen (z.&nbsp;B. Vorsorge &amp; Check-up, Impfungen &amp;
-        Reisemedizin, Sonographie, Labordiagnostik) werden ergänzt, sobald sie
-        mit Dr. Dr. Hammel final abgestimmt sind.
+        <strong>Weitere Leistungen folgen in Kürze.</strong> Vorsorge, Impfungen und
+        weitere Angebote stimmen wir gerade final mit Dr. Dr. Hammel ab.
       </p>
     </div>
   </section>
 
-  <!-- ===== Office hours ===== -->
-  <section class="section section-alt" id="sprechzeiten">
-    <div class="container">
-      <p class="eyebrow center">Wann wir für Sie da sind</p>
-      <h2 class="center">Sprechzeiten</h2>
-      <div class="hours-table">
-        <div class="hours-row"><span>Montag</span><span>08:00 – 12:00 &nbsp;·&nbsp; 15:00 – 18:00</span></div>
-        <div class="hours-row"><span>Dienstag</span><span>08:00 – 12:00 &nbsp;·&nbsp; 15:00 – 18:00</span></div>
-        <div class="hours-row"><span>Mittwoch</span><span>08:00 – 12:00</span></div>
-        <div class="hours-row"><span>Donnerstag</span><span>08:00 – 12:00 &nbsp;·&nbsp; 15:00 – 18:00</span></div>
-        <div class="hours-row"><span>Freitag</span><span>08:00 – 12:00</span></div>
-        <div class="hours-row muted"><span>Samstag &amp; Sonntag</span><span>Geschlossen</span></div>
-      </div>
-      <p class="center muted small">
-        Außerhalb der Sprechzeiten im Notfall: ärztlicher Bereitschaftsdienst unter <strong>116 117</strong>.
-        Bei lebensbedrohlichen Notfällen: <strong>112</strong>.
-      </p>
-    </div>
-  </section>
-
-  <!-- ===== Team / About ===== -->
-  <section class="section" id="team">
+  <!-- ===== Praxis / Team ===== -->
+  <section class="section section-alt" id="praxis">
     <div class="container about-inner">
-      <div class="about-photo" aria-hidden="true">
-        <span>Foto</span>
-      </div>
+      <div class="about-photo reveal" aria-label="Platzhalter für ein Foto von Dr. Dr. Hammel"></div>
       <div class="about-text">
-        <p class="eyebrow">Ihr Arzt</p>
-        <h2>Dr. Dr. Horst Hammel</h2>
-        <p>
-          [Platzhalter: Hier stellt sich Herr Dr. Dr. Hammel kurz vor –
-          Fachrichtung, Werdegang, Schwerpunkte und was ihm in der Behandlung
-          seiner Patientinnen und Patienten besonders wichtig ist.]
+        <span class="eyebrow">Ihr Arzt</span>
+        <h2>Dr. med. Dr. rer. nat. Horst Hammel</h2>
+        <p class="muted">
+          [Kurzvorstellung folgt: Hier stellt sich Herr Dr. Dr. Hammel persönlich vor
+          – sein Werdegang, seine Schwerpunkte und was ihm in der Betreuung seiner
+          Patientinnen und Patienten besonders am Herzen liegt.]
         </p>
-        <ul class="checklist">
-          <li>Langjährige Erfahrung</li>
-          <li>Moderne Praxisausstattung</li>
-          <li>Zeit für persönliche Gespräche</li>
-        </ul>
+        <div class="tags">
+          <span class="tag">Facharzt für Allgemeinmedizin</span>
+          <span class="tag">Naturheilverfahren</span>
+          <span class="tag">Manuelle Medizin / Chirotherapie</span>
+          <span class="tag">Homöopathie</span>
+        </div>
+        <div class="wb-note">
+          <strong>Akademische Weiterbildungspraxis.</strong> Wir bilden angehende
+          Fachärztinnen und Fachärzte für Allgemeinmedizin aus – gute Medizin
+          gibt man weiter.
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== Contact / Directions ===== -->
+  <!-- ===== Sprechzeiten ===== -->
+  <section class="section" id="sprechzeiten">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow center">Wann wir für Sie da sind</span>
+        <h2>Sprechzeiten</h2>
+      </div>
+      <div class="hours-wrap center">
+        <span class="hours-tag">🕒 Vorläufige Zeiten – werden noch bestätigt</span>
+        <div class="hours-row"><span>Montag</span><span>08:00 – 12:00 · 15:00 – 18:00</span></div>
+        <div class="hours-row"><span>Dienstag</span><span>08:00 – 12:00 · 15:00 – 18:00</span></div>
+        <div class="hours-row"><span>Mittwoch</span><span>08:00 – 12:00</span></div>
+        <div class="hours-row"><span>Donnerstag</span><span>08:00 – 12:00 · 15:00 – 18:00</span></div>
+        <div class="hours-row"><span>Freitag</span><span>08:00 – 12:00</span></div>
+        <div class="hours-row closed"><span>Samstag &amp; Sonntag</span><span>Geschlossen</span></div>
+        <p class="emergency">
+          Termine nach Vereinbarung unter <strong>06123 72679</strong>.<br />
+          Außerhalb der Sprechzeiten: ärztlicher Bereitschaftsdienst <strong>116 117</strong> ·
+          im Notfall <strong>112</strong>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Kontakt / Anfahrt ===== -->
   <section class="section section-alt" id="kontakt">
     <div class="container">
-      <p class="eyebrow center">So erreichen Sie uns</p>
-      <h2 class="center">Kontakt &amp; Anfahrt</h2>
+      <div class="section-head center">
+        <span class="eyebrow center">So erreichen Sie uns</span>
+        <h2>Kontakt &amp; Anfahrt</h2>
+      </div>
       <div class="contact-grid">
         <div class="contact-box">
           <h3>Adresse</h3>
           <p>
             Praxis Dr. Dr. Horst Hammel<br />
-            [Straße und Hausnummer]<br />
-            [PLZ und Ort]
+            Schöne Aussicht 1<br />
+            65396 Walluf
           </p>
           <h3>Telefon</h3>
-          <p><a href="tel:+49000000000">000 / 000 00 00</a></p>
-          <h3>E-Mail</h3>
-          <p><a href="mailto:info@praxis-hammel.de">info@praxis-hammel.de</a></p>
+          <p><a href="tel:+49612372679">06123 72679</a></p>
+          <h3>Fax</h3>
+          <p>06123 709966</p>
         </div>
         <div class="contact-box map-placeholder">
-          <span>Hier kann eine Karte (z.&nbsp;B. Google Maps) eingebunden werden.</span>
+          <span>Anfahrtskarte folgt.<br />Zentral gelegen in Walluf im Rheingau.</span>
         </div>
       </div>
     </div>
@@ -168,11 +235,14 @@
   <!-- ===== Footer ===== -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; 2026 Praxis Dr. Dr. Horst Hammel</p>
+      <span class="logo-text">Praxis Dr. Dr. Horst Hammel</span>
       <nav class="footer-nav">
         <a href="impressum.html">Impressum</a>
         <a href="datenschutz.html">Datenschutz</a>
       </nav>
+    </div>
+    <div class="container footer-fine">
+      <p>&copy; 2026 Praxis Dr. Dr. Horst Hammel · Facharzt für Allgemeinmedizin · Walluf im Rheingau</p>
     </div>
   </footer>
 

@@ -4,3 +4,6 @@
 # Editor
 .vscode/
 .idea/
+
+# Local dev preview config (machine-specific)
+.claude/launch.json
